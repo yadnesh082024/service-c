@@ -2,7 +2,7 @@ replicaCount: 2
 
 namespace: demo-ns
 
-releaseName: service-a
+releaseName: service-c
 
 image:
   repository: "yadnesh082024/github-actions-backend"
@@ -22,7 +22,7 @@ podLabels: {}  # Add this if needed to customize pod labels
 ingress:
   enabled: true
   hosts:
-    - host: service-a.argo-cd.backend-spring-app.com
+    - host: service-c.argo-cd.backend-spring-app.com
       paths:
         - path: /spring-app
           pathType: Prefix
