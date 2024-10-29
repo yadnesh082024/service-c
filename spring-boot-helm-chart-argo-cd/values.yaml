@@ -1,6 +1,6 @@
 replicaCount: 1
 
-namespace: demo-ns
+namespace: demo-ns-2
 
 releaseName: service-c
 
